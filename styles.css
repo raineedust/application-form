@@ -1,1 +1,55 @@
 @import "node_modules/modern-normalize/modern-normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+
+:root {
+  font-family: "Rubik", sans-serif;
+  --accent: #e6d19e;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: var(--accent);
+  font-size: 1.1em;
+  padding: 0.5em 1.7em 0.5em 1.7em;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.hero-img {
+  overflow: hidden;
+}
+
+.title {
+  font-family: Dosis;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 7vh;
+}
+
+.cta {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.form-content {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  margin: 10vw;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: row;
+}
