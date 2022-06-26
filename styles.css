@@ -62,8 +62,8 @@ button {
 
 .hero-img {
   overflow: hidden;
-  border-right: solid 10px #a59570;
-  height: 100vh;
+  border-right: solid 15px #a59570;
+  height: 58.55em;
 }
 
 .title {
