@@ -12,9 +12,6 @@
 body {
   display: flex;
   background-color: #faedd1;
-
-  /* GitHub Pages fix */
-  margin: 0%;
 }
 
 main {
