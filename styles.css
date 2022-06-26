@@ -105,11 +105,17 @@ button {
   margin-bottom: var(--formMargin);
 }
 
+.submit {
+  margin-top: 0.5em;
+  margin-right: 1.8vw;
+}
+
 .separator {
   padding: 12px;
   font-size: 1.1em;
+  margin-right: 1.8vw;
 }
 
-.submit {
-  margin-top: 0.5em;
+.altSubmit {
+  margin-right: 1.8vw;
 }
