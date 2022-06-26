@@ -1,6 +1,6 @@
 # Odin Form
 
-This is a simple Sign-up Form.
+This is a simple Sign-up Form for a fictitious business, Heimdall Real Estate.
 
 ## Live Preview
 
