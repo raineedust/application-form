@@ -38,6 +38,8 @@
                       id="firstName"
                       name="name"
                       placeholder="Julia"
+                      pattern="^[a-zA-Z]+$"
+                      required
                     />
                   </li>
                   <li>
@@ -47,6 +49,8 @@
                       id="lastName"
                       name="name"
                       placeholder="Chase"
+                      pattern="^[a-zA-Z]+$"
+                      required
                     />
                   </li>
                 </div>
@@ -58,32 +62,51 @@
                       id="email"
                       name="email"
                       placeholder="julia.chase@example.com"
+                      required
                     />
                   </li>
                   <li>
                     <label for="phoneNum">Phone No.</label>
                     <input
-                      type="number"
+                      type="tel"
                       id="phoneNum"
                       name="phoneNum"
-                      placeholder="017-8205720"
+                      placeholder="(+60) 17-3146972"
+                      pattern="[\+](\+?6?01)[0-46-9]-*[0-9]{7,8}$"
+                      required
                     />
                   </li>
                 </div>
                 <div class="formCol3">
                   <li>
                     <label for="pwd">Password</label>
-                    <input type="password" id="pwd" name="pwd" />
+                    <input
+                      type="password"
+                      id="pwd"
+                      name="pwd"
+                      placeholder="8-24 alphanumeric characters"
+                      minlength="8"
+                      maxlength="24"
+                      pattern="/^[a-zA-Z0-9]{8,24}+$/"
+                      required
+                      onkeyup="pwdValidation();"
+                    />
                   </li>
                   <li>
                     <label for="confirmPwd">Confirm password</label>
-                    <input type="password" id="pwd" name="confirmPwd" />
+                    <input
+                      type="password"
+                      id="confirmPwd"
+                      name="confirmPwd"
+                      required
+                      onkeyup="pwdValidation();"
+                    />
                   </li>
                 </div>
               </ul>
             </fieldset>
             <button class="submit">Create my free account</button>
-            <div class="separator">———— OR ————</div>
+            <div class="separator">————— &nbsp; OR &nbsp; —————</div>
             <button class="altSubmit">Sign up with GitHub</button>
           </form>
         </div>
