@@ -14,10 +14,9 @@ body {
   background-color: #faedd1;
 }
 
-/* main {
-  display: flex;
-  flex-direction: column;
-} */
+main {
+  height: 10vw;
+}
 
 fieldset {
   display: flex;
@@ -52,16 +51,18 @@ input:focus {
 
 button {
   background-color: var(--accent);
-  font-size: 1.3em;
-  padding: 0.8em 1.6em 0.8em 1.6em;
+  font-size: 1.2em;
+  padding: 1em 1em 1em 1em;
   border-radius: 5px;
   border-style: none;
   cursor: pointer;
-  width: 39%;
+  width: 33%;
+  overflow: hidden;
 }
 
 .hero-img {
   overflow: hidden;
+  border-right: solid 8px #a59570;
 }
 
 .title {
@@ -83,7 +84,7 @@ button {
 
 .form-content {
   text-align: center;
-  margin: 6vw;
+  margin: 5vw 8vw 6vw 8vw;
 }
 
 .formCol1 {
@@ -106,6 +107,7 @@ button {
 
 .separator {
   padding: 12px;
+  font-size: 1.1em;
 }
 
 .submit {

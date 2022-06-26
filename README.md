@@ -22,6 +22,8 @@ This project is hosted on **GitHub Pages**. Feel free to [:point_right: try it o
 
 ## Limitations
 
+- No border indicator when using password regex.
+
 ## Resources
 
 Below are a collection of resources which helped improve my skills :sparkles: while building the project:
@@ -29,5 +31,8 @@ Below are a collection of resources which helped improve my skills :sparkles: wh
 - [html - I need an unordered list without any bullets - Stack Overflow](https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets)
 - [CSS Forms](https://www.w3schools.com/css/css_form.asp)
 - [html - Make buttons the same width without specifying the exact size - Stack Overflow](https://stackoverflow.com/questions/13483331/make-buttons-the-same-width-without-specifying-the-exact-size)
+- [Regex for Alphanumeric Strings – RegexLand](https://regexland.com/regex-for-alphanumeric-strings/)
+- [javascript - Regex pattern for Malaysian mobile phone Number - Stack Overflow](https://stackoverflow.com/questions/45406613/regex-pattern-for-malaysian-mobile-phone-number)
+- [Regex for phone number - iHateRegex](https://ihateregex.io/expr/phone/)
 
 Built with :heart: to **The Odin Project**, a wonderful Web Development curriculum ~
