@@ -1,10 +1,10 @@
-# Odin Form
+# Application Form
 
-This is a simple Sign-up Form for a fictitious business, **Heimdall Real Estate**.
+This is a simple Application Form for a fictitious business, **Heimdall Real Estate**.
 
 ## Live Preview
 
-This project is hosted on **GitHub Pages**. Feel free to [:point_right: try it out](https://raineedust.github.io/sign-up-form/)!
+This project is hosted on **GitHub Pages**. Feel free to [:point_right: try it out](https://raineedust.github.io/application-form/)!
 
 ![](./assets/chrome_ZFKbz.png)
 
