@@ -2,7 +2,7 @@
 
 This is a simple Application Form for a fictitious business, **Heimdall Real Estate**.
 
-![](./assets/chrome_dtpFv.png)
+![](./assets/chrome_ENr2z.png)
 
 ## Live Preview
 
