@@ -4,55 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Odin Form</title>
+    <title>Application Form | Heimdall Real Estate</title>
     <link rel="icon" type="image/x-icon" href="./assets/form-logo.png" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <header></header>
+    <div class="hero-img">
+      <img src="./assets/jake-goossen.jpg" width="703vh" />
+    </div>
     <main>
-      <div class="hero-img">
-        <img src="./assets/nati-melnychuk.jpg" width="615vh" />
-      </div>
       <div class="form-content">
         <div class="form-head">
-          <div class="title">Odin Form</div>
+          <div class="title">
+            Heimdall Real Estate <img src="./assets/house.png" width="6%" />
+          </div>
           <div class="cta">
-            Sign up now, and find your dream <br />
-            home with us at 15% off!
+            Sign up with Heimdall Real Estate now, and find <br />
+            your dream home with us at
+            <strong style="color: #b3a27a">15% off</strong> !
           </div>
         </div>
         <div class="form-body">
           <form action="">
-            <ul>
-              <li>
-                <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="name" />
-              </li>
-              <li>
-                <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" name="name" />
-              </li>
-              <li>
-                <label for="email">E-mail Address</label>
-                <input type="email" id="email" name="email" />
-              </li>
-              <li>
-                <label for="phoneNum">Phone Number</label>
-                <input type="number" id="phoneNum" name="phoneNum" />
-              </li>
-              <li>
-                <label for="pwd">Password</label>
-                <input type="password" id="pwd" name="pwd" />
-              </li>
-              <li>
-                <label for="confirmPwd">Confirm password</label>
-                <input type="password" id="pwd" name="confirmPwd" />
-              </li>
-            </ul>
-            <button class="submit">Create a free account</button>
-            <div class="separator">OR</div>
+            <fieldset>
+              <ul>
+                <div class="formCol1">
+                  <li>
+                    <label for="firstName">First Name</label>
+                    <input
+                      type="text"
+                      id="firstName"
+                      name="name"
+                      placeholder="Julia"
+                    />
+                  </li>
+                  <li>
+                    <label for="lastName">Last Name</label>
+                    <input
+                      type="text"
+                      id="lastName"
+                      name="name"
+                      placeholder="Chase"
+                    />
+                  </li>
+                </div>
+                <div class="formCol2">
+                  <li>
+                    <label for="email">E-mail</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="julia.chase@example.com"
+                    />
+                  </li>
+                  <li>
+                    <label for="phoneNum">Phone No.</label>
+                    <input
+                      type="number"
+                      id="phoneNum"
+                      name="phoneNum"
+                      placeholder="017-8205720"
+                    />
+                  </li>
+                </div>
+                <div class="formCol3">
+                  <li>
+                    <label for="pwd">Password</label>
+                    <input type="password" id="pwd" name="pwd" />
+                  </li>
+                  <li>
+                    <label for="confirmPwd">Confirm password</label>
+                    <input type="password" id="pwd" name="confirmPwd" />
+                  </li>
+                </div>
+              </ul>
+            </fieldset>
+            <button class="submit">Create my free account</button>
+            <div class="separator">———— OR ————</div>
             <button class="altSubmit">Sign up with GitHub</button>
           </form>
         </div>
