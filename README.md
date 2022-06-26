@@ -16,6 +16,7 @@ This project is hosted on **GitHub Pages**. Feel free to [:point_right: try it o
 - [x] Implement form body
 - [x] Implement buttons
 - [x] Implement with CSS variables
+- [x] Implement with regex
 - [x] Implement HTML form validation
 - [x] Implement password confirmation validation with JS
 - [x] Make it pretty!
