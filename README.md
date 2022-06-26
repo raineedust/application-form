@@ -2,11 +2,11 @@
 
 This is a simple Application Form for a fictitious business, **Heimdall Real Estate**.
 
+![](./assets/chrome_ZFKbz.png)
+
 ## Live Preview
 
 This project is hosted on **GitHub Pages**. Feel free to [:point_right: try it out](https://raineedust.github.io/application-form/)!
-
-![](./assets/chrome_ZFKbz.png)
 
 ## Motivation and Goals
 
