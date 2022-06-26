@@ -69,14 +69,14 @@ button {
   font-family: Dosis;
   font-weight: bold;
   font-size: 2em;
-  margin-bottom: 6.5vh;
+  margin-bottom: 5.5vh;
   word-spacing: 0.1em;
   letter-spacing: 0.05em;
 }
 
 .cta {
   font-size: 1.7em;
-  margin-bottom: 0.6em;
+  margin-bottom: 2.3vh;
   text-align: left;
   margin-left: 2em;
   line-height: 1.3em;

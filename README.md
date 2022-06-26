@@ -6,7 +6,7 @@ This is a simple Sign-up Form.
 
 This project is hosted on **GitHub Pages**. Feel free to [:point_right: try it out](https://raineedust.github.io/sign-up-form/)!
 
-![](./images/)
+![](./assets/chrome_ZFKbz.png)
 
 ## Motivation and Goals
 
@@ -16,9 +16,9 @@ This project is hosted on **GitHub Pages**. Feel free to [:point_right: try it o
 - [x] Implement form body
 - [x] Implement buttons
 - [x] Implement with CSS variables
-- [ ] Implement HTML form validation
-- [ ] Implement password confirmation validation
-- [ ] Make it pretty!
+- [x] Implement HTML form validation
+- [x] Implement password confirmation validation with JS
+- [x] Make it pretty!
 
 ## Limitations
 
@@ -34,5 +34,7 @@ Below are a collection of resources which helped improve my skills :sparkles: wh
 - [Regex for Alphanumeric Strings – RegexLand](https://regexland.com/regex-for-alphanumeric-strings/)
 - [javascript - Regex pattern for Malaysian mobile phone Number - Stack Overflow](https://stackoverflow.com/questions/45406613/regex-pattern-for-malaysian-mobile-phone-number)
 - [Regex for phone number - iHateRegex](https://ihateregex.io/expr/phone/)
+- [CSS Styling Links](https://www.w3schools.com/css/css_link.asp)
+- [The Complete Guide to HTML Forms and Constraint Validation - SitePoint](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/)
 
 Built with :heart: to **The Odin Project**, a wonderful Web Development curriculum ~
